@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1857FCB2CCFD10200A3CAB5 /* Anupam_SeekhoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1857FCA2CCFD10200A3CAB5 /* Anupam_SeekhoApp.swift */; };
+		F1857FCF2CCFD10500A3CAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1857FCE2CCFD10500A3CAB5 /* Assets.xcassets */; };
+		F1857FD22CCFD10500A3CAB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1857FD12CCFD10500A3CAB5 /* Preview Assets.xcassets */; };
+		F1857FD92CCFED4C00A3CAB5 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1857FD82CCFED4C00A3CAB5 /* MoviesListView.swift */; };
+		F1857FDB2CCFEDC600A3CAB5 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1857FDA2CCFEDC500A3CAB5 /* MovieDetailView.swift */; };
+		F1C06C8C2CD0602A00328E76 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C06C8B2CD0602A00328E76 /* Movie.swift */; };
+		F1C06C8E2CD0606000328E76 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C06C8D2CD0606000328E76 /* MovieService.swift */; };
+		F1C06C902CD1197400328E76 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C06C8F2CD1197400328E76 /* MovieDetail.swift */; };
+		F1C06C922CD1D2E200328E76 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C06C912CD1D2E200328E76 /* WebView.swift */; };
+		F1C06CAB2CD23C2300328E76 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C06CAA2CD23C2300328E76 /* MoviesViewModel.swift */; };
+		F1C06CAE2CD23C6E00328E76 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C06CAD2CD23C6E00328E76 /* MovieDetailViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1857FC72CCFD10200A3CAB5 /* Anupam-Seekho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anupam-Seekho.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1857FCA2CCFD10200A3CAB5 /* Anupam_SeekhoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anupam_SeekhoApp.swift; sourceTree = "<group>"; };
+		F1857FCE2CCFD10500A3CAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1857FD12CCFD10500A3CAB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1857FD82CCFED4C00A3CAB5 /* MoviesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
+		F1857FDA2CCFEDC500A3CAB5 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		F1C06C8B2CD0602A00328E76 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		F1C06C8D2CD0606000328E76 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		F1C06C8F2CD1197400328E76 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		F1C06C912CD1D2E200328E76 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F1C06CAA2CD23C2300328E76 /* MoviesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		F1C06CAD2CD23C6E00328E76 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1857FC42CCFD10200A3CAB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1857FBE2CCFD10200A3CAB5 = {
+			isa = PBXGroup;
+			children = (
+				F1857FC92CCFD10200A3CAB5 /* Anupam-Seekho */,
+				F1857FC82CCFD10200A3CAB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1857FC82CCFD10200A3CAB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1857FC72CCFD10200A3CAB5 /* Anupam-Seekho.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1857FC92CCFD10200A3CAB5 /* Anupam-Seekho */ = {
+			isa = PBXGroup;
+			children = (
+				F1857FCA2CCFD10200A3CAB5 /* Anupam_SeekhoApp.swift */,
+				F1857FCE2CCFD10500A3CAB5 /* Assets.xcassets */,
+				F1857FD02CCFD10500A3CAB5 /* Preview Content */,
+				F1C06C932CD2344000328E76 /* MoviesList */,
+				F1C06C942CD2344900328E76 /* MoviesDetails */,
+				F1C06CA52CD23BA300328E76 /* Networking */,
+				F1C06CA42CD23B8B00328E76 /* Components */,
+			);
+			path = "Anupam-Seekho";
+			sourceTree = "<group>";
+		};
+		F1857FD02CCFD10500A3CAB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1857FD12CCFD10500A3CAB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1C06C932CD2344000328E76 /* MoviesList */ = {
+			isa = PBXGroup;
+			children = (
+				F1C06CAC2CD23C2A00328E76 /* ViewModel */,
+				F1C06CA62CD23BB700328E76 /* Model */,
+				F1C06CA72CD23BBE00328E76 /* View */,
+			);
+			path = MoviesList;
+			sourceTree = "<group>";
+		};
+		F1C06C942CD2344900328E76 /* MoviesDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F1C06CAF2CD23C7100328E76 /* ViewModel */,
+				F1C06CA82CD23BC700328E76 /* Model */,
+				F1C06CA92CD23BCD00328E76 /* View */,
+			);
+			path = MoviesDetails;
+			sourceTree = "<group>";
+		};
+		F1C06CA42CD23B8B00328E76 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F1C06C912CD1D2E200328E76 /* WebView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F1C06CA52CD23BA300328E76 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F1C06C8D2CD0606000328E76 /* MovieService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F1C06CA62CD23BB700328E76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1C06C8B2CD0602A00328E76 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1C06CA72CD23BBE00328E76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1857FD82CCFED4C00A3CAB5 /* MoviesListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1C06CA82CD23BC700328E76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1C06C8F2CD1197400328E76 /* MovieDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1C06CA92CD23BCD00328E76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1857FDA2CCFEDC500A3CAB5 /* MovieDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1C06CAC2CD23C2A00328E76 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1C06CAA2CD23C2300328E76 /* MoviesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F1C06CAF2CD23C7100328E76 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1C06CAD2CD23C6E00328E76 /* MovieDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1857FC62CCFD10200A3CAB5 /* Anupam-Seekho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1857FD52CCFD10500A3CAB5 /* Build configuration list for PBXNativeTarget "Anupam-Seekho" */;
+			buildPhases = (
+				F1857FC32CCFD10200A3CAB5 /* Sources */,
+				F1857FC42CCFD10200A3CAB5 /* Frameworks */,
+				F1857FC52CCFD10200A3CAB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anupam-Seekho";
+			productName = "Anupam-Seekho";
+			productReference = F1857FC72CCFD10200A3CAB5 /* Anupam-Seekho.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1857FBF2CCFD10200A3CAB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F1857FC62CCFD10200A3CAB5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F1857FC22CCFD10200A3CAB5 /* Build configuration list for PBXProject "Anupam-Seekho" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1857FBE2CCFD10200A3CAB5;
+			productRefGroup = F1857FC82CCFD10200A3CAB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1857FC62CCFD10200A3CAB5 /* Anupam-Seekho */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1857FC52CCFD10200A3CAB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1857FD22CCFD10500A3CAB5 /* Preview Assets.xcassets in Resources */,
+				F1857FCF2CCFD10500A3CAB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1857FC32CCFD10200A3CAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1857FD92CCFED4C00A3CAB5 /* MoviesListView.swift in Sources */,
+				F1C06C8C2CD0602A00328E76 /* Movie.swift in Sources */,
+				F1857FDB2CCFEDC600A3CAB5 /* MovieDetailView.swift in Sources */,
+				F1857FCB2CCFD10200A3CAB5 /* Anupam_SeekhoApp.swift in Sources */,
+				F1C06C922CD1D2E200328E76 /* WebView.swift in Sources */,
+				F1C06C8E2CD0606000328E76 /* MovieService.swift in Sources */,
+				F1C06C902CD1197400328E76 /* MovieDetail.swift in Sources */,
+				F1C06CAB2CD23C2300328E76 /* MoviesViewModel.swift in Sources */,
+				F1C06CAE2CD23C6E00328E76 /* MovieDetailViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1857FD32CCFD10500A3CAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1857FD42CCFD10500A3CAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1857FD62CCFD10500A3CAB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Anupam-Seekho/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Seekho;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anupambharti.Anupam-Seekho";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1857FD72CCFD10500A3CAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Anupam-Seekho/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Seekho;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anupambharti.Anupam-Seekho";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1857FC22CCFD10200A3CAB5 /* Build configuration list for PBXProject "Anupam-Seekho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1857FD32CCFD10500A3CAB5 /* Debug */,
+				F1857FD42CCFD10500A3CAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1857FD52CCFD10500A3CAB5 /* Build configuration list for PBXNativeTarget "Anupam-Seekho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1857FD62CCFD10500A3CAB5 /* Debug */,
+				F1857FD72CCFD10500A3CAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1857FBF2CCFD10200A3CAB5 /* Project object */;
+}
